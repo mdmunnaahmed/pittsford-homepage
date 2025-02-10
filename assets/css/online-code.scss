@@ -1,0 +1,15 @@
+.header-banner {
+    height: 100%;
+    @include media-breakpoint-up(md) {
+        height: 300px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: 500px;
+    }
+    
+    img {
+        object-position: center;
+        object-fit: cover;
+    }
+}
